@@ -1,0 +1,13 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "agent": "./agent.py:graph",
+    "dynamic_breakpoints": "./dynamic_breakpoints.py:graph",
+    "streaming_agent": "./streaming_agent.py:graph"
+  },
+  "env": "./.env",
+  "python_version": "3.11",
+  "dependencies": [
+    "."
+  ]
+}

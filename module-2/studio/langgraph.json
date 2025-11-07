@@ -1,0 +1,13 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "chatbot": "./chatbot.py:graph",
+    "stateschema": "./state_schema.py:graph",
+    "stateschema_pydantic": "./state_schema_pydantic.py:graph"
+  },
+  "env": "./.env",
+  "python_version": "3.11",
+  "dependencies": [
+    "."
+  ]
+}
